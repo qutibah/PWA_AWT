@@ -26,8 +26,8 @@ Develop an interoperable PWA for media playback, which includes a catalogue and 
   * Progress information
   * Representation selection (SD, HD, Audio, TextTracks)
 * Storage management (e.g. cache, listing, removal)
-  * IndexedDB
-  * LocalStorage implementing Quota Managment API to query free space
+  * Data store for client purpose using IndexedDB
+  * LocalStorage implementing Quota Management API to query free space
   * Node WebSQL using NodeJS (File System)
 * Playback of stored content (offline)
 * Integration into existing HTML5 player (shaka, dash.js)
