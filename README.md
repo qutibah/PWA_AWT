@@ -30,14 +30,14 @@ Develop an interoperable PWA for media playback, which includes a catalogue and 
   * Representation selection (SD, HD, Audio, TextTracks).
 * Integration into existing HTML5 player (shaka, dash.js):
   * Playback of stored content (offline).
-  * Network bandwith selection (network-agnostic)
+  * Network bandwith selection (network-agnostic).
 * Additional features:
   * Push notification (Web Push).
   * Work with mobile device (device-agnostic).
   * Work with Electron player.
 
 ## Non-funtional Requirements (NFR)
-* Storage management (e.g. cache, listing, removal)
+* Storage management (e.g. cache, listing, removal):
   * Data store for client purpose using IndexedDB (e.g. cache offline resources portal & player).
   * LocalStorage implementing Quota Management API to query free space.
   * Node WebSQL using NodeJS (File System).
