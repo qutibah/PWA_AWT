@@ -36,7 +36,7 @@ Develop an interoperable PWA for media playback, which includes a catalogue and 
   * Work with mobile device (device-agnostic).
   * Work with Electron player.
 
-## Non-funtional Requirements (NFR)
+## Non-functional Requirements (NFR)
 * Storage management (e.g. cache, listing, removal):
   * Data store for client purpose using IndexedDB (e.g. cache offline resources portal & player).
   * LocalStorage implementing Quota Management API to query free space.
