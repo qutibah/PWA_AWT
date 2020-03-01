@@ -18,7 +18,7 @@
 * Bootstrap
 * Webpack
 
-## Funtional Requirements (FR)
+## Functional Requirements (FR)
 
 Develop an interoperable PWA for media playback, which includes a catalogue and media player (e.g. dash.js or shaka-player)
 * Work in major browser and UI/UX adjustment (cross-browser capabilities):
