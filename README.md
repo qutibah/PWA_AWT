@@ -25,14 +25,14 @@ Develop an interoperable PWA for media playback, which includes a catalogue and 
 * Download functionality for DASH (MPD + segments)
   * Progress information
   * Representation selection (SD, HD, Audio, TextTracks)
-* Storage management (e.g. listing, removal)
-  * (Indexed DB)
-  * (Quota Managment API to query free space)
-  * Filesysten using NodeJS
+* Storage management (e.g. cache, listing, removal)
+  * IndexedDB
+  * LocalStorage implementing Quota Managment API to query free space
+  * Node WebSQL using NodeJS (File System)
 * Playback of stored content (offline)
 * Integration into existing HTML5 player (shaka, dash.js)
 * UI adjustments (e.g. offline app, download page, download button etc.)
-  * Cache offline app resources (portal + player
+  * Cache offline app resources (portal + player)
 
 ## Getting started
 
