@@ -54,6 +54,9 @@ For a production build for the web application run `yarn build` or `npm run buil
 
 ## Resources
 
+* Video for mobile devices:
+https://drive.google.com/file/d/1WqeXq98gVYTbIJuRp3l9Rp6J1H-LWeME/view
+
 #### Electron
 
 * https://github.com/electron/electron-api-demos
