@@ -7,7 +7,7 @@
 
 <div align="center"><strong>Progressive Web App build with React + Electron = ❤️</strong></div>
 <br />
----
+
 
 ## Tech Stack
 
@@ -18,21 +18,31 @@
 * Bootstrap
 * Webpack
 
-## Requirements
+## Funtional Requirements (FR)
 
 Develop an interoperable PWA for media playback, which includes a catalogue and media player (e.g. dash.js or shaka-player)
+* Work in major browser and UI/UX adjustment (cross-browser capabilities):
+  * Offline functionality.
+  * Navigation menu (hamburger icon, download button).  
+* Download functionality for DASH (MPD + segments):
+  * Download page (playlist).
+  * Progress information.
+  * Representation selection (SD, HD, Audio, TextTracks).
+* Integration into existing HTML5 player (shaka, dash.js):
+  * Playback of stored content (offline).
+  * Network bandwith selection (network-agnostic)
+* Additional features:
+  * Push notification (Web Push).
+  * Work with mobile device (device-agnostic).
+  * Work with Electron player.
 
-* Download functionality for DASH (MPD + segments)
-  * Progress information
-  * Representation selection (SD, HD, Audio, TextTracks)
+## Non-funtional Requirements (NFR)
 * Storage management (e.g. cache, listing, removal)
-  * Data store for client purpose using IndexedDB
-  * LocalStorage implementing Quota Management API to query free space
-  * Node WebSQL using NodeJS (File System)
-* Playback of stored content (offline)
-* Integration into existing HTML5 player (shaka, dash.js)
-* UI adjustments (e.g. offline app, download page, download button etc.)
-  * Cache offline app resources (portal + player)
+  * Data store for client purpose using IndexedDB (e.g. cache offline resources portal & player).
+  * LocalStorage implementing Quota Management API to query free space.
+  * Node WebSQL using NodeJS (File System).
+
+
 
 ## Getting started
 
@@ -54,7 +64,7 @@ For a production build for the web application run `yarn build` or `npm run buil
 
 ## Resources
 
-* Video for mobile devices:
+* Video for mobile devices (testng):
 https://drive.google.com/file/d/1WqeXq98gVYTbIJuRp3l9Rp6J1H-LWeME/view
 
 #### Electron
