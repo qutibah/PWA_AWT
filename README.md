@@ -1,6 +1,6 @@
 # Project Advanced Web Technologies
 
-<img src="https://blog.jscrambler.com/content/images/2016/12/electron_react1.png" alt="Electron React" align="center" />
+<img src="https://github.com/qutibah/PWA_AWT/blob/master/src/assets/Simplified%20process%20PWAs1.png" alt="AWT PWA Media Playback" align="center" />
 
 <br />
 <br />
